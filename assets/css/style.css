@@ -18,6 +18,26 @@
     margin-top: 100px;
 }
 
+.mb-120 {
+    margin-bottom: 120px;
+}
+
 .post-header {
     margin-bottom: 3rem;
+}
+
+.outline-tools .card-body {
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+}
+
+.tool-item {
+    display: block;
+    padding: 0.4rem 0.8rem 0.4rem 0;
+}
+
+.tool-body {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    border-radius: 0.25rem;
 }
