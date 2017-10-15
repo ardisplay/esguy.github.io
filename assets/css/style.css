@@ -1,7 +1,11 @@
+.post-header {
+    text-align: center;
+}
+
 .post-header h1 {
     font-weight: 700;
     color: #b9b915;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .post-header p {
