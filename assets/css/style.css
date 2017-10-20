@@ -98,3 +98,48 @@ h2 u, p.tag-line u {
 .questions-list h4 {
     margin-top: 1.4rem;
 }
+
+.lh1-4 {
+    line-height: 1.4;
+}
+
+.slack-icon {
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.price-package-title {
+    padding-bottom: 20px;
+    display: block;
+}
+
+ul.features {
+    margin: 0;
+    padding: 0;
+}
+
+ul.features li {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #f4f4f4;
+}
+
+li.price-label {
+    background: #f4f4f4;
+    font-size: 3rem;
+}
+
+.slack-icon {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.pricing-box {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+    padding: 20px 0 0;
+    border: 0.0625em solid #e1e5ea;
+    border-radius: 0.4rem;
+}
