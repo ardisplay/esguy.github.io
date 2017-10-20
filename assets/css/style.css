@@ -143,3 +143,11 @@ li.price-label {
     border: 0.0625em solid #e1e5ea;
     border-radius: 0.4rem;
 }
+
+p.x-small {
+    font-size: 1rem;
+}
+
+ul.features li:last-child {
+    padding: 1.5rem 0;
+}
