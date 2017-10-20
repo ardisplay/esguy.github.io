@@ -31,7 +31,8 @@ p.tag-line {
     font-weight: 600;
 }
 
-p.tag-line u {
+h2 u, p.tag-line u {
+    font-weight: 600;
     text-decoration: none;
     border-bottom: 4px solid;
     padding-bottom: 3px;
