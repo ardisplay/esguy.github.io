@@ -151,3 +151,30 @@ p.x-small {
 ul.features li:last-child {
     padding: 1.5rem 0;
 }
+
+a.gumroad-button.btn.btn-block {
+    display: inline-block !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    background-image: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    border: 1px solid transparent !important;
+    padding: .5rem .75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.25 !important;
+    border-radius: .25rem !important;
+    transition: all .15s ease-in-out !important;
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    padding: 1.5rem !important;
+}
+
+a.gumroad-button.btn.btn-block span.gumroad-button-logo {
+    display: none !important;
+}
