@@ -92,7 +92,7 @@ h2 u, p.tag-line u {
     border: none;
 }
 
-.btn-rounded {
+.btn-rounded, .btn-rounded:hover {
     border-radius: 62px;
     padding: 8px 33px;
     font-weight: 400;
@@ -102,6 +102,8 @@ h2 u, p.tag-line u {
 
 .questions-list h4 {
     margin-top: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
 }
 
 .lh1-4 {
@@ -188,12 +190,13 @@ a.gumroad-button.btn.btn-block span.gumroad-button-logo {
     color: #ac9aca;
 }
 
-a {
+a, a:hover {
     color: white;
     border-bottom: 1px solid white;
+    text-decoration: none;
 }
 
-.white-wrap a {
+.white-wrap a, .white-wrap a:hover {
     color: currentColor !important;
     border-bottom: 1px solid;
     text-decoration: none;
@@ -204,6 +207,7 @@ a {
     color: #2d2d2d;
 }
 
-.text-wheat {
-    color: #c7b1b1;
+.questions-list p {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
 }
