@@ -1,6 +1,7 @@
 body {
-    background: #FFFC66;
-    color: #393F41;
+    color: white;
+    background-image: -webkit-linear-gradient(225deg, #5c4fc0, #974fc0);
+    background-image: linear-gradient(225deg, #5c4fc0, #974fc0);
 }
 
 .post-header {
@@ -8,8 +9,8 @@ body {
 }
 
 .post-header h1 {
-    font-weight: 800;
-    color: #393F41;
+    font-weight: 600;
+    color: white;
     font-size: 3rem;
 }
 
@@ -26,9 +27,9 @@ body {
 
 p.tag-line {
     font-size: 1.7rem;
-    color: #393F41;
+    color: white;
     line-height: 2;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h2 u, p.tag-line u {
@@ -82,10 +83,13 @@ h2 u, p.tag-line u {
 
 .white-wrap {
     background: white;
+    color: #2d2d2d;
 }
 
 .btn-primary {
-    background: #3F60E9;
+    background: #e2d754;
+    color: #51455c;
+    border: none;
 }
 
 .btn-rounded {
@@ -93,6 +97,7 @@ h2 u, p.tag-line u {
     padding: 8px 33px;
     font-weight: 400;
     line-height: 39px;
+    border: none;
 }
 
 .questions-list h4 {
@@ -177,4 +182,28 @@ a.gumroad-button.btn.btn-block {
 
 a.gumroad-button.btn.btn-block span.gumroad-button-logo {
     display: none !important;
+}
+
+.text-whitish {
+    color: #ac9aca;
+}
+
+a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.white-wrap a {
+    color: currentColor !important;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: #f7f09e;
+    color: #2d2d2d;
+}
+
+.text-wheat {
+    color: #b3b3b3;
 }
