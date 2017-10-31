@@ -90,6 +90,7 @@ h2 u, p.tag-line u {
     background: #e2d754;
     color: #51455c;
     border: none;
+    cursor: pointer;
 }
 
 .btn-rounded, .btn-rounded:hover {
