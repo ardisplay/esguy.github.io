@@ -2,20 +2,32 @@ body {
     color: #2d2d2d;
 }
 
+.post-header {
+    margin: 30px auto 5px;
+}
+
 .post-header h1 {
     font-weight: 700;
     color: #2d2d2d;
-    font-size: 3rem;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .post-header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .post-header img {
-    height: 100px;
+    height: 80px;
     display: block;
-    margin: 60px auto 5px;
-    width: 100px;
+    margin: 0 auto 5px;
+    width: 80px;
 }
 
+.demo-view {
+    background: #23272b;
+}
+
+.page-description {
+    text-align: center;
+}
