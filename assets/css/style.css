@@ -1,9 +1,47 @@
 body {
+    color: #6c757d;
+}
+
+h1, h2, h3, h4, h5, h6 {
     color: #2d2d2d;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.75;
+}
+
+.text-cross {
+    text-decoration: line-through
+}
+
+.text-highlight {
+    background: #ffc;
+}
+
+.badge {
+    font-weight: 400;
+}
+
+.alert-highlight {
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+    background: #ffffcc;
+    line-height: 1.75;
+    margin: 50px 0 60px;
 }
 
 .post-header {
-    margin: 30px auto 5px;
+    margin: 60px auto 50px;
+}
+
+.post-body {
+    display: block;
+    max-width: 500px;
+    margin: auto;
 }
 
 .post-header h1 {
@@ -11,10 +49,12 @@ body {
     color: #2d2d2d;
     font-size: 30px;
     margin-bottom: 5px;
+    margin-top: 0;
 }
 
 .post-header p {
     font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .post-header img {
